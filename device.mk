@@ -99,6 +99,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# VNDK
+PRODUCT_PACKAGES += \
+    com.android.vndk.current.on_vendor
+
 # WiFi
 PRODUCT_PACKAGES += \
     TocoWifiOverlay
