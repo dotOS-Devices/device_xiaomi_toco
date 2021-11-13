@@ -9,11 +9,11 @@
         "remote":       "github",
         "repository":   "AndroidHQ254/vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
-        "branch":       "11"
+        "branch":       "dot12"
     },
     {
         "repository":   "device_xiaomi_sm6150-common-toco",
         "target_path":  "device/xiaomi/sm6150-common",
-        "branch":       "dot11"
+        "branch":       "dot12"
     }
 ]
