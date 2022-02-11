@@ -28,10 +28,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Build Description
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.211001.001 7641976 release-keys" \
-    BUILD_FINGERPRINT="google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys"
+    PRIVATE_BUILD_DESC="toco-user 12 RKQ1.210614.002 V13.0.1.0.SFNMIXM release-keys"
 
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+BUILD_FINGERPRINT := Xiaomi/toco_global/toco:12/RKQ1.210614.002/V13.0.1.0.SFNMIXM:user/release-keys
