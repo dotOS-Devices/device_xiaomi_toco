@@ -19,9 +19,6 @@ $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 # MiuiCamera
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-# Firmware Toco
-$(call inherit-product, vendor/xiaomi-firmware/toco/firmware.mk)
-
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 29
 
@@ -141,8 +138,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    vendor/xiaomi-firmware
+    $(LOCAL_PATH)
 
 # Storage health HAL
 PRODUCT_PACKAGES += \
