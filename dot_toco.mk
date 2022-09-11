@@ -15,7 +15,9 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 $(call inherit-product, vendor/dot/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 EXTRA_FOD_ANIMATIONS = true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
